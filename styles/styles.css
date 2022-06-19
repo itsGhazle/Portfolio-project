@@ -18,6 +18,30 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+nav li.active a {
+  color: var(--primary-color);
+}
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover {
+  color: var(--primary-color);
+}
+
 .hero {
   background-color: #f9f7fe;
   text-align: center;
@@ -75,6 +99,9 @@ p {
 }
 .project-description {
   padding: 120px 60px 0;
+}
+.logo {
+  max-height: 40px;
 }
 
 @media (max-width: 960px) {
