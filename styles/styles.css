@@ -41,6 +41,24 @@ nav a {
 nav a:hover {
   color: var(--primary-color);
 }
+footer .content-box {
+  padding: 30px;
+  background-color: #f9f7fe;
+  border-radius: 4px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #541690;
+  background-color: #f9f7fe;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
 
 .hero {
   background-color: #f9f7fe;
